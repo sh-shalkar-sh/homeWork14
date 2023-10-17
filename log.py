@@ -37,7 +37,5 @@ class Loger:
 
 if __name__ == '__main__':
     loger = Loger(PATH)
-    # print(f"Уровень доступа: {loger.authorize(1, 'Johnny D')}")
-    # loger.add_user('Ivan Petrov', 6, 1)
     print(f"Уровень доступа: {loger.authorize(4, 'Mike Tyson')}")
     loger.add_user('Mad Max', 7, 1)
